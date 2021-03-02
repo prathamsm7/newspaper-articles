@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #cfd6ea;
+}
+
+nav {
+  background-color: #70afbd;
+  height: 50px;
+  font-size: 1rem;
+  position: fixed;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #5c378b;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+li:nth-of-type(5) {
+  color: crimson;
+  position: absolute;
+  right: 7rem;
+}
+
+li:last-of-type {
+  position: absolute;
+  right: 1rem;
+  color: brown;
+}
+
+section {
+  background-color: #d8d4d5;
+  width: 70%;
+  border: 2px solid #fb5607;
+  padding: 16px;
+  margin: 10px auto;
+  border-radius: 15px;
+}
+
+article {
+  margin: 10px;
+  padding: 15px;
+}
+
+article h2 {
+  font-weight: bolder;
+  font-family: "Akaya Telivigala", cursive;
+  color: darkmagenta;
+  padding: 5px;
+}
+
+hr {
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid 5px;
+  border-color: rgb(0, 4, 250);
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr:before {
+  /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: rgb(47, 0, 255);
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+article img {
+  padding: 5px;
+  float: left;
+  border: 2px solid #8a4fff;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 5px 3px 4px 3px #d138bf;
+  margin: 15px;
+  width: 30vw;
+  height: 35vh;
+}
+
+p {
+  margin-top: 5px;
+  font-family: "Lobster", cursive;
+  letter-spacing: 0.5px;
+}
+
+.para {
+  clear: both;
+}
+
+section article:nth-of-type(2n + 1) img {
+  float: right;
+}
+
+footer {
+  background-color: #85beca;
+  margin: 25px;
+  text-align: center;
+  box-shadow: -5px -5px 35px rgb(98, 98, 189);
+}
