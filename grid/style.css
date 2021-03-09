@@ -61,7 +61,8 @@ a {
 
 a:hover {
   /* background: #91877b; */
-  text-shadow: 0 1px 0 rgba(141, 230, 241, 0.918);
+  text-shadow: 0 1px 0 rgba(80, 214, 231, 0.918);
+  font-size: 1.2rem;
 }
 a.signup {
   text-shadow: none;
@@ -69,7 +70,7 @@ a.signup {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(218, 241, 83);
   font-size: large;
-  padding: 5px;
+  padding: 5px none;
 }
 
 a.signup:hover {
@@ -241,10 +242,12 @@ nav i {
     justify-content: center;
     width: 100%;
     position: relative;
+    padding-bottom: 1rem;
   }
   ul {
     flex-direction: column;
     align-items: center;
+    padding-top: 10px;
   }
   li {
     padding: unset;
@@ -258,6 +261,10 @@ nav i {
     color: black;
     font-size: 1.5rem;
   }
+  /* nav a.signup {
+    padding-bottom: 20px;
+    border: none;
+  } */
 }
 footer {
   position: relative;
